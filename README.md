@@ -29,7 +29,7 @@ assets/
 The site will be available at:
 
 ```text
-https://YOUR-USERNAME.github.io/aions-path/
+https://Xyrn0.github.io/aions-path/
 ```
 
 ## Links used in the page
