@@ -29,7 +29,7 @@ assets/
 The site will be available at:
 
 ```text
-https://Xyrn0.github.io/aions-path/
+https://YOUR-USERNAME.github.io/aions-path/
 ```
 
 ## Links used in the page
@@ -38,9 +38,11 @@ https://Xyrn0.github.io/aions-path/
 - Official Wiki: https://aions-path.fandom.com/wiki/Aions_Path_Wiki
 - Instagram: https://www.instagram.com/aionspath/
 - X: https://x.com/AionsPath
+- Patreon: coming soon
 
 ## Editing notes
 
 - Replace screenshot placeholders in `index.html` or add real images to `assets/screenshots/`.
 - Update roadmap text as development progresses.
 - Replace the disabled newsletter form when a newsletter provider is selected.
+- When Patreon is ready, replace the `#support` placeholder in `index.html` with the official Patreon URL and change `Patreon Coming Soon` to `Support on Patreon`.

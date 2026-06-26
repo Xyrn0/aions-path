@@ -246,6 +246,18 @@ h3 {
   color: var(--text);
 }
 
+.button.support {
+  background: rgba(215, 153, 69, 0.18);
+  border: 1px solid rgba(138, 90, 37, 0.22);
+  color: var(--accent-dark);
+}
+
+.disabled-link {
+  pointer-events: none;
+  opacity: 0.78;
+  cursor: not-allowed;
+}
+
 .button:hover,
 .link-card:hover,
 .feature-card:hover,
@@ -558,6 +570,7 @@ h3 {
   line-height: 1.1;
 }
 
+.support-section,
 .newsletter {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -565,6 +578,46 @@ h3 {
   align-items: center;
   padding: 2rem;
   margin-bottom: 6rem;
+}
+
+.support-section {
+  grid-template-columns: 1.15fr 0.85fr;
+  margin-bottom: 0;
+}
+
+.support-copy p {
+  color: var(--muted);
+}
+
+.support-note {
+  font-weight: 750;
+}
+
+.support-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+}
+
+.support-card {
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(215, 153, 69, 0.14), rgba(255, 252, 241, 0.88)),
+    var(--bg-card);
+  box-shadow: 0 14px 40px rgba(78, 54, 22, 0.08);
+}
+
+.support-card ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.support-card li + li {
+  margin-top: 0.55rem;
 }
 
 .newsletter-form label {
@@ -636,6 +689,7 @@ h3 {
 
   .hero,
   .split,
+  .support-section,
   .newsletter {
     grid-template-columns: 1fr;
   }
